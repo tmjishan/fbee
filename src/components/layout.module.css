@@ -1,0 +1,23 @@
+.container {
+    margin: auto;
+    max-width: 1200px;
+    font-family: sans-serif;
+    background-color: rgba(242, 246, 250, 0.863);
+    padding: 5px;
+ }
+.head-line{
+    color: rgb(255, 102, 0);
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+  .nav-link-item {
+    padding-right: 2rem;
+  }
+  .nav-link-text {
+    color: black;
+  }
