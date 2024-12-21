@@ -19,5 +19,5 @@ const data = useStaticQuery(graphql`
     )
 }
 
-
+export const Head = ({data})=><title>{data.site.siteMetadata.title}</title>
 export default Seo
