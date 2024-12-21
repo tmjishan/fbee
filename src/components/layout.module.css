@@ -3,7 +3,9 @@
     max-width: 80%;
     font-family: sans-serif;
     background-color: rgba(242, 246, 250, 0.863);
-    padding: 5px;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
  }
 .head-line{
     color: rgb(255, 102, 0);
@@ -29,4 +31,10 @@
   }
   .nav-link-text:hover{
     color: sandybrown;
+  }
+  .site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
   }

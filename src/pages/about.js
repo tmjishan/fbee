@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
+import Seo from "../components/seo"
 const AboutMe =()=>{
     return(
         <Layout pageTitle={'About'}>
@@ -9,10 +10,11 @@ const AboutMe =()=>{
         alt="seed"
         src="../image/seed.jpg"
         width={500}
+        height={300}
         />
         </Layout>
     )
 }
 
-export const Head = ()=> <title>About Me</title>
 export default AboutMe
+export const Head = ()=> <Seo title="About" />
